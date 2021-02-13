@@ -17,7 +17,7 @@ namespace ConsoleUI
             int menu = 1;
             while (menu != 0)
             {
-                Console.WriteLine("Marka işlemleri için 1'e basınız\nRenk işlemleri için 2'ye basınız\nAraç işlemleri için 3'e basınız\nÇıkış yapmak için 0'a basınız");
+                Console.WriteLine(" Marka işlemleri için 1'e basınız\nRenk işlemleri için 2'ye basınız\nAraç işlemleri için 3'e basınız\nÇıkış yapmak için 0'a basınız");
                 menu = int.Parse(Console.ReadLine());
                 switch (menu)
                 {
